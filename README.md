@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # Parcel template
+=======
+# Hausaufgabe 11
+
+# Vanilla App Template
+>>>>>>> 1f56141 (hausaufgabe 11)
 
 Этот проект был создан при помощи Parcel. Для знакомства и настройки
 дополнительных возможностей [обратись к документации](https://parceljs.org/).
