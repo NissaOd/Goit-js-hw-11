@@ -16,14 +16,4 @@ export default class LoadMoreBtn {
   showBtn() {
     this.btn.classList.remove('hidden');
   }
-
-  // disable() {
-  //     this.btn.disabled = true;
-  //     this.btn.textContent = "Loading...";
-  // }
-
-  //  enable() {
-  //     this.btn.disabled = false;
-  //     this.btn.textContent = "Load more";
-  // }
 }

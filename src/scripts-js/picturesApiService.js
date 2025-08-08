@@ -18,11 +18,6 @@ export default class PicturesApiService {
     this.totalHits = response.data.totalHits;
 
     return response.data.hits;
-
-    //  return axios.get(URL).then(({ data }) => {
-    //      this.nextPage();
-    //      return data.hits;
-    //   })
   }
 
   nextPage() {

@@ -38,7 +38,6 @@ function onSubmit(event) {
       );
     }
   });
-  // loadMoreBtn.showBtn();
 }
 
 async function onLoadMoreBtn() {
@@ -54,7 +53,6 @@ async function onLoadMoreBtn() {
 }
 
 async function fetchPictures() {
-  // loadMoreBtn.disable();
   loadMoreBtn.hideBtn();
   try {
     const picturesResponse = await picturesApiService.getPictures();
@@ -89,14 +87,6 @@ async function fetchPictures() {
       'Sorry, there are no images matching your search query. Please try again.'
     );
   }
-
-  // return  picturesApiService.getPictures().then( hits  => {
-  //       if (hits.length === 0) throw new Error(response.statusText);
-  //       return hits.reduce((markup, hits) => createMarkup(hits) + markup, "");
-  // }).then(markup => {
-  //   renderMarkup(markup);
-  //   loadMoreBtn.enable();
-  // }).catch(err => { console.log(err); loadMoreBtn.hideBtn(); })
 }
 
 function clearMarkup() {
@@ -138,5 +128,3 @@ function createMarkup({
   </div>
 </div>`;
 }
-
-//  <img src="${webformatURL}" alt="${tags}" loading="lazy" />
